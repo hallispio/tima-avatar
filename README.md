@@ -7,7 +7,18 @@
 - 🔄 Custom Hypercall (0x99) - In Progress
 
 ### 🚀 Quick Start
+```bash
+# 1. KVM availability 확인
+ls -l /dev/kvm
 
+# 2. Build (inside avatar-core)
+cd avatar-core && cargo build
+
+# 3. Run (Requires sudo for KVM access)
+sudo ../target/debug/tima-avatar
+
+
+# Expected: [Tima Avatar] KVM API Version: 12
 ### 📊 Development Log
 **2026-02-26: Foundation**
 - KVM environment verification
