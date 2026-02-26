@@ -1,17 +1,17 @@
-# 🌌 Tima Avatar
-> **KVM-based Virtualization Control System**
-
-하드웨어 가상화 기술(KVM)을 직접 제어하여 호스트와 게스트 사이의 경계를 허무는 Rust 기반 가상화 엔진입니다.
+## 🌌 Tima Avatar
+**KVM-based Virtualization Control System**
 
 ### ⚡ Current Status
-* **✅ Environment Setup**: Complete (Bare-metal / Nested Virt enabled)
-* **✅ KVM API Verification**: Version 12 Confirmed
-* **🔄 Custom Hypercall (0x99)**: In Progress (Implementing Guest-to-Host Bridge)
-
----
+- ✅ Environment Setup Complete
+- ✅ KVM API Version 12 Verified
+- 🔄 Custom Hypercall (0x99) - In Progress
 
 ### 🚀 Quick Start
-```
 
+### 📊 Development Log
+**2026-02-26: Foundation**
+- KVM environment verification
+- API Version 12 confirmed
+- Hypercall preparation initiated
 
-
+### 🛠️ Technical Details
