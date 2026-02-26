@@ -11,18 +11,7 @@
 ---
 
 ### 🚀 Quick Start
-```bash
-# Verify KVM availability
-ls -l /dev/kvm
-
-# Check KVM version via Ghost-Shell-Tool
-cargo run --bin tima-check
-# Expected: [GHOST] KVM API Version: 12
+```
 
 
-🛠️ Technical Details
-Layer: Ring -1 (Hypervisor Level)
 
-Logic: Custom VCPU Loop & VM-Exit Handling
-
-Bridge: Rust-C FFI for KVM IOCTLs
