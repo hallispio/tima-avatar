@@ -1,12 +1,10 @@
 ## 🌌 Tima Avatar
 **KVM-based Virtualization Control System**
 
-## [🚧 Work In Progress] 
+## [🚧 Work In Progress]
+Building a custom Rust-based VMM from scratch, directly controlling KVM ioctl (bypassing QEMU/libvirt) and implementing custom hypercalls for research and experimentation.
 
-- Building a custom Rust-based VMM from scratch, bypassing QEMU/libvirt to directly control KVM ioctl and inject custom hypercalls.
-## [Warning: Active Mutation]
-
-- Still forging the core. This is a highly experimental VMM research zone. The codebase and hardware-level interactions can and will be broken, rewritten, or completely overhauled at any given moment. Proceed with caution.
+Note: This is an experimental project under active development. The codebase and low‑level interactions may change as the design evolves.
 
 ### ⚡ Current Status
 - ✅ Environment Setup Complete
