@@ -1,6 +1,9 @@
 ## 🌌 Tima Avatar
 **KVM-based Virtualization Control System**
 
+## [🚧 Work In Progress] 
+- Building a custom Rust-based VMM from scratch, bypassing QEMU/libvirt to directly control KVM ioctl and inject custom hypercalls.
+
 ### ⚡ Current Status
 - ✅ Environment Setup Complete
 - ✅ KVM API Version 12 Verified
@@ -24,5 +27,6 @@ sudo ../target/debug/tima-avatar
 - KVM environment verification
 - API Version 12 confirmed
 - Hypercall preparation initiated
+
 
 ### 🛠️ Technical Details
