@@ -2,7 +2,11 @@
 **KVM-based Virtualization Control System**
 
 ## [🚧 Work In Progress] 
+
 - Building a custom Rust-based VMM from scratch, bypassing QEMU/libvirt to directly control KVM ioctl and inject custom hypercalls.
+## [Warning: Active Mutation]
+
+- Still forging the core. This is a highly experimental VMM research zone. The codebase and hardware-level interactions can and will be broken, rewritten, or completely overhauled at any given moment. Proceed with caution.
 
 ### ⚡ Current Status
 - ✅ Environment Setup Complete
