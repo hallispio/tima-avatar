@@ -4,4 +4,9 @@ version = "0.1.0"
 edition = "2024"
 
 [dependencies]
+# KVM을 직접 컨트롤하기 위한 핵심 인터페이스
+kvm-ioctls = "0.19.0"
+# KVM 커널 구조체와 데이터 바인딩
+kvm-bindings = "0.10.0"
+# 메모리 매핑(mmap) 등 하드웨어 레벨 시스템 콜용
 libc = "0.2.182"
