@@ -9,6 +9,7 @@ Note: This is an experimental project under active development. The codebase and
 ### ⚡ Current Status
 - ✅ Environment Setup Complete
 - ✅ KVM API Version 12 Verified
+- ✅ Port I/O (0x99) Communication Success (Latest Update)
 - 🔄 Custom Hypercall (0x99) - In Progress
 
 ### 🚀 Quick Start
@@ -22,6 +23,7 @@ cd avatar-core && cargo build
 # 3. Run (Requires sudo for KVM access)
 sudo ../target/debug/tima-avatar
 ```
+# Expected: [Guest Output] Hello (I/O branch)
 
 # Expected: [Tima Avatar] KVM API Version: 12
 ### 📊 Development Log
