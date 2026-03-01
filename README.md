@@ -23,7 +23,7 @@ cd avatar-core && cargo build
 # 3. Run (Requires sudo for KVM access)
 sudo ../target/debug/tima-avatar
 ```
-# Expected: [Guest Output] Hello (I/O branch)
+Expected: [Guest Output] Hello (I/O branch)
 
 # Expected: [Tima Avatar] KVM API Version: 12
 ### 📊 Development Log
