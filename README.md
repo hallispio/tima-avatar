@@ -41,7 +41,7 @@ Expected: [Guest Output] Hello (I/O branch)
 
 ### 🛠️ Technical Details
 
-Language: Rust (Edition 2021)
-Interface: Linux KVM API (ioctl)
-Libraries: kvm-ioctls, kvm-bindings, libc
-Communication: Custom Port I/O (0x99) trap
+- Language: Rust (Edition 2021)
+- Interface: Linux KVM API (ioctl)
+- Libraries: kvm-ioctls, kvm-bindings, libc
+- Communication: Custom Port I/O (0x99) trap
