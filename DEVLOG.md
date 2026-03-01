@@ -10,4 +10,4 @@
 - Hypercall Prep: Initialized architecture for Custom Hypercall 0x99 and the Guest-Host communication bridge.
 
 **Next Steps**
-- Hypercall 0x99 implementation
+- Hypercall 0x99 full implementation: Transition from Port I/O to native VMCALL interface.
